@@ -1,0 +1,15 @@
+name: Warnings
+version: '${project.version}'
+main: dev.tim.warnings.Main
+api-version: 1.19
+commands:
+  warn:
+    description: Warn a player
+    usage: /<command> <player> <reason>
+    aliases: [w]
+  deletewarn:
+    description: Delete a warning
+    usage: /<command> <id>
+  checkwarns:
+    description: View the warnings of a player
+    usage: /<command> <player>
